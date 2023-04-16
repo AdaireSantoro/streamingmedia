@@ -5,20 +5,24 @@
     <meta charset="utf-8">
     <meta name="author" content="Adaire Santoro">
     <meta name="description" content="Music playlists">
+    <meta name="viewport" content="width=device-width">
     <link href="styles.css" rel="stylesheet">
 </head>    
     <body>
         <!-- NOTE: Leave all the content in this order; do not rearrange the text. This is the order it needs to be for reading left to tight, top to bottom. Use CSS to visually order it for viewing. Also, note the title and heading that have been applied -->
         <header>
             <h1>Smooth Jazz</h1>
-        <blockquote>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</blockquote>
+        <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
         </header>
      <nav>
+        <h2>Main Navigation</h2>
+        <input type="checkbox" id="dropdown">
+        <label for="dropdown"><span></span></label>
         <ul>
             <li><a href="#home">MuzakMaker</a></li>
-            <li><a href="#trending">Trending <br />Songs</a></li>
-            <li><a href="#playlists">Your <br />Playlists</a></li>
-            <li><a href="#curated">Curated <br />Playlists</a></li>   
+            <li><a href="#trending">Trending <br>Songs</a></li>
+            <li><a href="#playlists">Your <br>Playlists</a></li>
+            <li><a href="#curated">Curated <br>Playlists</a></li>   
             <li><a href="user"><img src="images/duke-silver.png" alt="user picture"></a></li>
         </ul>
     </nav>
@@ -98,8 +102,11 @@
             </div>
                 
                 
-            <div class="your-playlist">
+            <div class="playlistscroll">
             <h3>Your Playlists</h3>
+        
+
+
             <img src="images/best-of-2020-cover.png" alt="best of 2020">
                 <dl>
                     <dt>Best of 2020</dt>
@@ -133,7 +140,7 @@
             </div>
         </section>
         
-            <div class="all">
+            <div class="all-playlists">
             <p>All your playlists</p>
             </div>
      
